@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    background-color:aliceblue;
+}
+
+.image{
+    background: url(kristijan.jpg) center no-repeat;
+    background-size: 600px;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img{
+    width: 80px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+.image .img-back{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 120px;
+    width: 800px;
+    margin-bottom: 400px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.img-back ,img{
+    width: 70px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+
+.img-back h1{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.credit{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 800px;
+    margin-left: 600px;
+}
+
+.credit h2{
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+    
+    
+
+}
+
+.right-info{
+    /* padding-left: 2rem; */
+}
+
+.top-info{
+    margin-top: 8rem;
+    width: 600px;
+    padding-left: 2rem;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.h3-2{
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+.form-div{
+    background: white;
+}
+
+.form-div .head{
+    padding-left: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-details{
+    background-color: white;
+    width: 1000px;
+    box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.47);
+    /* display: flex;
+    flex-direction: row; */
+    padding-left: 2rem;
+    display: grid;
+    grid-template-columns: 300px auto auto;
+    margin-top: 10px;
+}
+input[type='text'],input[type='number'] {
+    width: 200px;
+    height: 27px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border: none;
+    outline: blue 1px solid;
+}
+
+label{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#btn{
+    margin-left: 35px;
+    margin-top: 35px;
+    padding: 12px 25px;
+    background-color: #596d48;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.acct{
+    font-size: 13px;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.acct a{
+    color: green;
+}
+
